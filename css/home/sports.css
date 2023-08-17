@@ -1,0 +1,11 @@
+@import url("./sports/carousel.css");
+@import url("./sports/controller.css");
+
+#sports {
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  display: grid;
+  gap: 1.5rem;
+}

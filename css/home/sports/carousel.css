@@ -1,0 +1,155 @@
+/*-------------------------------------------*/
+/*------------- CAROUSEL STYLES -------------*/
+/*-------------------------------------------*/
+
+.sports-carousel {
+  box-shadow: 0 0 20px #000000af;
+  justify-content: start;
+  grid-auto-flow: column;
+  border-radius: 10px;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  width: 1480px;
+  height: 600px;
+  display: grid;
+}
+
+.sports-slide {
+  transition: transform 2000ms;
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  width: 1480px;
+  height: 600px;
+  display: grid;
+}
+
+.sports-slide-image {
+  position: absolute;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  top: 0;
+}
+
+/*--------------------------------------------*/
+/*------------ INFORMATION STYLES ------------*/
+/*--------------------------------------------*/
+
+.sports-slide-information {
+  box-shadow: 0 0 10px #00000050;
+  background-color: #000000bf;
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 2rem;
+  display: grid;
+  width: 850px;
+}
+
+.sports-slide-name {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: -5px;
+  font-weight: 300;
+  font-size: 8rem;
+  cursor: default;
+  color: #fff;
+}
+
+.sports-slide-description {
+  font-family: "Montserrat", sans-serif;
+  margin-top: -0.65rem;
+  font-size: 1.25rem;
+  color: #c2c2c2;
+  font-weight: 300;
+  cursor: default;
+}
+
+/*--------------------------------------*/
+/*------------- RESPONSIVE -------------*/
+/*--------------------------------------*/
+
+@media all and (width <= 1485px) {
+  .sports-carousel {
+    width: 1200px;
+  }
+
+  .sports-slide {
+    width: 1200px;
+  }
+}
+
+@media all and (width <= 1225px) {
+  .sports-carousel {
+    width: 1000px;
+  }
+
+  .sports-slide {
+    width: 1000px;
+  }
+
+  .sports-slide-information {
+    width: 600px;
+  }
+
+  .sports-slide-name {
+    font-size: 5rem;
+  }
+
+  .sports-slide-description {
+    font-size: 1rem;
+  }
+}
+
+@media all and (width <= 1020px) {
+  .sports-carousel {
+    height: 500px;
+    width: 800px;
+  }
+
+  .sports-slide {
+    height: 500px;
+    width: 800px;
+  }
+}
+
+@media all and (width <= 830px) {
+  .sports-carousel {
+    height: 400px;
+    width: 520px;
+  }
+
+  .sports-slide {
+    height: 400px;
+    width: 520px;
+  }
+
+  .sports-slide-information {
+    width: 300px;
+    gap: 0.5rem;
+  }
+
+  .sports-slide-name {
+    letter-spacing: -0.85px;
+    font-size: 2.5rem;
+  }
+
+  .sports-slide-description {
+    font-size: 0.65rem;
+  }
+}
+
+@media all and (width <= 580px) {
+  .sports-carousel {
+    display: none;
+  }
+}
+
+/*--------------------------------------------*/
+/*---------------- END OF CSS ----------------*/
+/*--------------------------------------------*/

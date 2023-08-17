@@ -1,0 +1,23 @@
+<div class="sports-carousel">
+  <img class="sports-slideshow-button" src="/buttons/pause.png" />
+
+  <% sports.forEach((sport) => { %>
+  <div class="sports-slide">
+    <div class="sports-slide-information">
+      <h2 class="sports-slide-name"><%= sport.name %></h2>
+      <p class="sports-slide-description"><%= sport.description %></p>
+    </div>
+
+    <img class="sports-slide-image" src="<%= sport.image %>" />
+  </div>
+  <% }) %>
+
+  <img class="sports-carousel-button left" src="/buttons/arrow-left.png" />
+  <img class="sports-carousel-button right" src="/buttons/arrow-right.png" />
+
+  <div class="sports-carousel-indicators">
+    <% sports.forEach(() => { %>
+    <div class="sports-carousel-indicator"></div>
+    <% }) %>
+  </div>
+</div>

@@ -1,0 +1,181 @@
+/*----------------------------------------------*/
+/*--------------- PROFILE STYLES ---------------*/
+/*----------------------------------------------*/
+
+.creator-page {
+  justify-content: center;
+  grid-auto-flow: column;
+  align-items: center;
+  padding: 2.5rem 0;
+  display: grid;
+  gap: 15rem;
+}
+
+.creator1-profile-image {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.creator1-image {
+  width: 15rem;
+}
+
+.creator1-profile {
+  box-shadow: 0 0 20px #00000080;
+  background-color: #000000bf;
+  width: 400px;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  border-radius: 20px;
+  height: max-content;
+}
+
+.creator-page {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.creator1-name-info {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  line-height: 0;
+  color: white;
+}
+
+.creator1-name {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  margin-top: 1.85rem;
+  font-weight: 500;
+}
+
+.creator1-profession {
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.creator1-socialmedia-link {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.socialmedia-icon {
+  width: 3rem;
+}
+
+.creator1-bio {
+  font-family: "Poppins", sans-serif;
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: fit-content;
+  font-size: 1rem;
+  color: white;
+  display: grid;
+}
+
+.creator1-bio p {
+  margin: 1.5rem 0;
+}
+
+.personal-detail {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  align-items: center;
+  gap: 0 0.65rem;
+}
+
+.whatsapp-image,
+.blackboard-image,
+.college-image {
+  width: 2rem;
+}
+
+.whatsapp-image {
+  margin-top: 1rem;
+}
+
+.blackboard-image {
+  margin: 1.25rem 0;
+}
+
+.college-image {
+  margin-bottom: 1rem;
+}
+
+.phone-number,
+.class-name,
+.college-name {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.phone-number {
+  margin-top: 1rem;
+}
+
+.class-name {
+  margin: 1.25rem 0;
+}
+
+.college-name {
+  margin-bottom: 1rem;
+}
+
+.socialmedia-icon {
+  transition: 300ms;
+  padding-top: 2rem;
+}
+
+.socialmedia-icon:hover {
+  transform: scale(1.1);
+}
+
+/*------------------------------------------*/
+/*--------------- RESPONSIVE ---------------*/
+/*------------------------------------------*/
+
+@media all and (width <= 1085px) {
+  .creator-page {
+    gap: 5rem;
+  }
+}
+
+@media all and (width <= 920px) {
+  .creator-page {
+    gap: 2.5rem;
+  }
+}
+
+@media all and (width <= 880px) {
+  .creator-page {
+    grid-auto-flow: row;
+  }
+}
+
+@media all and (width <= 440px) {
+  .creator1-profile {
+    width: 300px;
+  }
+
+  .creator1-image {
+    width: 10rem;
+  }
+
+  .creator1-bio p {
+    font-size: 0.75rem;
+    padding: 0 1rem;
+  }
+}

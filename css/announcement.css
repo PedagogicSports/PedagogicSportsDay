@@ -1,0 +1,41 @@
+@import url("./common/navbar.css");
+@import url("./common/footer.css");
+
+* {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  position: relative;
+}
+
+#announcement {
+  grid-template-columns: auto;
+  justify-content: stretch;
+  align-items: center;
+  padding: 4rem 0;
+  display: grid;
+}
+
+.announcement-container {
+  background-image: url("/announcement/background.png");
+  background-size: cover;
+  padding: 5rem 0;
+  font-size: 3rem;
+  color: white;
+}
+
+.announcement-container-title {
+  font-family: "Poppins", sans-serif;
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: start;
+  padding-top: 1rem;
+  margin: 2rem 0;
+  display: grid;
+}

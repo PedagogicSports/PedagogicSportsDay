@@ -1,0 +1,74 @@
+/*----------------------------------------------------*/
+/*----------------- SCHEDULES STYLES -----------------*/
+/*----------------------------------------------------*/
+
+#schedule,
+#points {
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  display: grid;
+  gap: 1rem;
+}
+
+.sheet-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 6rem;
+  cursor: default;
+}
+
+.sheet {
+  box-shadow: -10px -10px 20px #00000050;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 1000px;
+  width: 1000px;
+  outline: none;
+  border: none;
+}
+
+/*----------------------------------------*/
+/*-------------- RESPONSIVE --------------*/
+/*----------------------------------------*/
+
+@media all and (width <= 1050px) {
+  .sheet {
+    height: 800px;
+    width: 800px;
+  }
+}
+
+@media all and (width <= 825px) {
+  .sheet-title {
+    font-size: 4rem;
+  }
+
+  .sheet {
+    height: 500px;
+    width: 500px;
+  }
+}
+
+@media all and (width <= 540px) {
+  #schedule,
+  #points {
+    justify-content: stretch;
+  }
+
+  .sheet-title {
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  .sheet {
+    margin: 0 auto;
+    height: 300px;
+    width: 300px;
+  }
+}
+
+/*-----------------------------------------------*/
+/*----------------- END OFD CSS -----------------*/
+/*-----------------------------------------------*/

@@ -1,0 +1,256 @@
+/*-----------------------------------------------*/
+/*---------------- NAVBAR STYLES ----------------*/
+/*-----------------------------------------------*/
+
+header {
+  box-shadow: 0 0 20px #000000af;
+}
+
+nav {
+  grid-template-columns: auto;
+  background-color: #000040;
+  justify-content: stretch;
+  align-items: center;
+  position: relative;
+  padding: 1rem 0;
+  display: grid;
+  gap: 1rem;
+}
+
+.nav-divider {
+  border-bottom: 2px solid #ffffff20;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+}
+
+/*----------------------------------------*/
+/*------------ DETAILS STYLES ------------*/
+/*----------------------------------------*/
+
+.nav-details {
+  justify-content: space-between;
+  grid-auto-flow: column;
+  align-items: center;
+  position: relative;
+  padding: 0 4rem;
+  display: grid;
+}
+
+.nav-links {
+  justify-content: center;
+  grid-auto-flow: column;
+  align-items: center;
+  display: grid;
+  gap: 1rem;
+}
+
+.nav-link.home {
+  transition: background-color 450ms;
+  border: 2px solid #fff;
+  padding: 0.25rem 2rem;
+  border-radius: 2.5px;
+  position: relative;
+  overflow: hidden;
+}
+
+.nav-link-text {
+  font-family: "Poppins", sans-serif;
+  transition: color 450ms;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.nav-logo-image {
+  width: 200px;
+}
+
+/*--------------------------------------------*/
+/*-------------- WELCOME STYLES --------------*/
+/*--------------------------------------------*/
+
+.nav-welcome {
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1.5rem;
+  display: grid;
+}
+
+.nav-welcome-department {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.65rem;
+  text-align: center;
+  font-weight: 500;
+  cursor: default;
+  color: #fff;
+}
+
+.nav-welcome-club {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 2.5px;
+  text-align: center;
+  font-weight: 100;
+  cursor: default;
+  font-size: 4rem;
+  color: #fff;
+}
+
+/*----------------------------------*/
+/*-------------- MENU --------------*/
+/*----------------------------------*/
+
+.nav-menu-image {
+  transition: opacity 450ms;
+  display: none;
+  opacity: 0.5;
+  width: 25px;
+}
+
+.nav-menu-links {
+  transition: opacity 450ms, pointer-events 450ms;
+  box-shadow: 0 0 20px #00000080;
+  background-color: #000000ff;
+  grid-template-columns: auto;
+  justify-content: center;
+  pointer-events: none;
+  align-items: center;
+  border-radius: 5px;
+  position: absolute;
+  width: fit-content;
+  bottom: -18.5rem;
+  margin: 0 auto;
+  padding: 2rem;
+  display: none;
+  z-index: 2;
+  opacity: 0;
+  gap: 1rem;
+  right: 0;
+  left: 0;
+}
+
+.nav-menu-link {
+  padding: 0.25rem 4rem;
+  position: relative;
+  isolation: isolate;
+}
+
+.nav-menu-link::before {
+  background-color: #fff;
+  transition: width 450ms;
+  transform: skew(40deg);
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  content: "";
+  width: 0%;
+  left: 0;
+  top: 0;
+}
+
+.nav-menu-link-text {
+  font-family: "Poppins", sans-serif;
+  transition: color 450ms;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+/*---------------------------------------*/
+/*------------- TRANSITIONS -------------*/
+/*---------------------------------------*/
+
+.nav-link.home:hover {
+  background-color: #fff;
+}
+
+.nav-link.home:hover .nav-link-text {
+  color: #000;
+}
+
+.nav-menu-link:hover::before {
+  width: 100%;
+}
+
+.nav-menu-link:hover .nav-menu-link-text {
+  color: #000;
+}
+
+/*----------------------------------*/
+/*----------- RESPONSIVE -----------*/
+/*----------------------------------*/
+
+@media all and (width <= 920px) {
+  .nav-welcome-department {
+    font-size: 2rem;
+  }
+
+  .nav-welcome-club {
+    font-size: 2.5rem;
+  }
+}
+
+@media all and (width <= 850px) {
+  .nav-links {
+    display: none;
+  }
+
+  .nav-menu-image {
+    display: block;
+  }
+
+  .nav-menu-links {
+    display: grid;
+  }
+}
+
+@media all and (width <= 645px) {
+  .nav-welcome-department {
+    font-size: 1.5rem;
+  }
+
+  .nav-welcome-club {
+    font-size: 2rem;
+  }
+}
+
+@media all and (width <= 505px) {
+  .nav-welcome-department {
+    font-size: 1rem;
+  }
+
+  .nav-welcome-club {
+    font-size: 1.5rem;
+  }
+}
+
+@media all and (width <= 405px) {
+  .nav-logo-image {
+    width: 150px;
+  }
+
+  .nav-welcome-department {
+    font-size: 0.65rem;
+  }
+
+  .nav-welcome-club {
+    font-size: 1.25rem;
+  }
+}
+
+@media all and (width <= 375px) {
+  .nav-welcome-department {
+    font-size: 0.5rem;
+  }
+
+  .nav-welcome-club {
+    font-size: 1rem;
+  }
+}
+
+/*----------------------------------------*/
+/*-------------- END OF CSS --------------*/
+/*----------------------------------------*/

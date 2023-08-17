@@ -1,0 +1,103 @@
+/*---------------------------------------------------*/
+/*---------------- CONTROLLER STYLES ----------------*/
+/*---------------------------------------------------*/
+
+.sports-slideshow-button {
+  filter: drop-shadow(0 0 5px #000);
+  transition: opacity 450ms;
+  position: absolute;
+  object-fit: cover;
+  cursor: pointer;
+  opacity: 0.8;
+  left: 1.5rem;
+  top: 1.5rem;
+  width: 40px;
+  z-index: 1;
+}
+
+/*-----------------------------------------*/
+/*------------ CAROUSEL BUTTON ------------*/
+/*-----------------------------------------*/
+
+.sports-carousel-button {
+  transition: translate 150ms, opacity 450ms;
+  filter: drop-shadow(0 0 5px #000);
+  position: absolute;
+  cursor: pointer;
+  opacity: 0.5;
+  width: 40px;
+}
+
+.sports-carousel-button.left {
+  left: 1.5rem;
+}
+
+.sports-carousel-button.right {
+  right: 1.5rem;
+}
+
+/*------------------------------------------*/
+/*----------- CAROUSEL INDICATOR -----------*/
+/*------------------------------------------*/
+
+.sports-carousel-indicators {
+  justify-content: center;
+  grid-auto-flow: column;
+  align-items: center;
+  position: absolute;
+  bottom: 1.5rem;
+  display: grid;
+  gap: 1rem;
+  right: 0;
+  left: 0;
+}
+
+.sports-carousel-indicator {
+  transition: background-color 450ms, opacity 450ms;
+  box-shadow: 0 0 10px #00000060;
+  border: 2px solid #fff;
+  border-radius: 40px;
+  cursor: pointer;
+  opacity: 0.25;
+  height: 6.5px;
+  width: 50px;
+}
+
+.sports-carousel-indicator:nth-of-type(1) {
+  background-color: #fff;
+  opacity: 1;
+}
+
+/*-----------------------------------------*/
+/*-------------- TRANSITIONS --------------*/
+/*-----------------------------------------*/
+
+.sports-slideshow-button:hover {
+  opacity: 1;
+}
+
+.sports-carousel-button:hover {
+  opacity: 1;
+}
+
+.sports-carousel-button.left:hover {
+  translate: -5px 0;
+}
+
+.sports-carousel-button.right:hover {
+  translate: 5px 0;
+}
+
+/*--------------------------------------*/
+/*------------- RESPONSIVE -------------*/
+/*--------------------------------------*/
+
+@media all and (width <= 830px) {
+  .sports-carousel-indicator {
+    width: 30px;
+  }
+}
+
+/*------------------------------------------*/
+/*--------------- END OF CSS ---------------*/
+/*------------------------------------------*/

@@ -1,0 +1,43 @@
+@import url("./introduction/info.css");
+@import url("./introduction/head.css");
+
+#introduction {
+  grid-template-columns: auto;
+  justify-content: stretch;
+  padding: 2rem 1.25rem;
+  align-items: center;
+  display: grid;
+}
+
+.intro-container {
+  grid-template-columns: repeat(2, auto);
+  box-shadow: 0 0 20px #000000a0;
+  justify-content: space-between;
+  padding: 2.5rem 4rem;
+  border-radius: 10px;
+  align-items: start;
+  position: relative;
+  overflow: hidden;
+  display: grid;
+}
+
+.intro-background {
+  position: absolute;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  top: 0;
+}
+
+/*----------------------------------------*/
+/*-------------- RESPONSIVE --------------*/
+/*----------------------------------------*/
+
+@media all and (width <= 1480px) {
+  .intro-container {
+    grid-template-columns: auto;
+    justify-content: center;
+    gap: 2rem;
+  }
+}

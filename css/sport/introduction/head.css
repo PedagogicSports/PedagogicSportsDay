@@ -1,0 +1,195 @@
+/*-----------------------------------------------*/
+/*----------------- HEAD STYLES -----------------*/
+/*-----------------------------------------------*/
+
+.intro-head-container {
+  grid-template-columns: repeat(2, auto);
+  justify-content: center;
+  align-items: stretch;
+  display: grid;
+  gap: 2rem;
+}
+
+.intro-head {
+  box-shadow: 0 0 20px #00000080;
+  background-color: #000000bf;
+  grid-template-columns: auto;
+  justify-content: left;
+  align-items: center;
+  border-radius: 10px;
+  min-width: 300px;
+  padding: 2rem;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.intro-head-title {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 300;
+  cursor: default;
+  color: #fff;
+}
+
+.intro-head-divider {
+  border-bottom: 2px solid #ffffff10;
+  border-radius: 40px;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+}
+
+/*-------------------------------------------*/
+/*-------------- IMAGE DETAILS --------------*/
+/*-------------------------------------------*/
+
+.intro-head-image-details {
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.intro-head-image {
+  margin: 0 auto;
+  width: 180px;
+}
+
+.intro-head-name {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 0.25rem;
+  letter-spacing: 1px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 300;
+  cursor: default;
+  color: #fff;
+}
+
+/*-------------------------------------------*/
+/*------------- CONTACT DETAILS -------------*/
+/*-------------------------------------------*/
+
+.intro-head-contact-details {
+  grid-template-columns: auto;
+  justify-content: left;
+  align-items: center;
+  display: grid;
+  gap: 0.25rem;
+}
+
+.intro-head-contact,
+.intro-head-contact {
+  grid-auto-flow: column;
+  justify-content: left;
+  align-items: center;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.intro-head-contact-image,
+.intro-head-contact-image {
+  width: 20px;
+}
+
+.intro-head-contact-text,
+.intro-head-contact-text {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  font-size: 1.25rem;
+  font-weight: 300;
+  cursor: default;
+  color: #fff;
+}
+
+/*------------------------------------------*/
+/*--------------- EMAIL LINK ---------------*/
+/*------------------------------------------*/
+
+.intro-head-email {
+  grid-template-columns: repeat(2, auto);
+  transition: background-color 400ms;
+  box-shadow: 0 0 10px #00000060;
+  border: 2px solid #fff;
+  justify-content: center;
+  border-radius: 40px;
+  align-items: center;
+  padding: 0.25rem 0;
+  margin-top: 0.5rem;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.intro-head-email-image {
+  transition: filter 400ms;
+  width: 20px;
+}
+
+.intro-head-email-text {
+  font-family: "Poppins", sans-serif;
+  transition: color 400ms;
+  letter-spacing: 0.5px;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+/*--------------------------------------*/
+/*------------- TRANSITION -------------*/
+/*--------------------------------------*/
+
+.intro-head-email:hover {
+  background-color: #fff;
+}
+
+.intro-head-email:hover .intro-head-email-image {
+  filter: invert(1);
+}
+
+.intro-head-email:hover .intro-head-email-text {
+  color: #000;
+}
+
+/*----------------------------------------*/
+/*-------------- RESPONSIVE --------------*/
+/*----------------------------------------*/
+
+@media all and (width <= 720px) {
+  .intro-head-container {
+    grid-template-columns: auto;
+  }
+}
+
+@media all and (width <= 450px) {
+  .intro-head {
+    justify-content: center;
+    min-width: 200px;
+  }
+
+  .intro-head-title {
+    font-size: 1.5rem;
+  }
+
+  .intro-head-image {
+    width: 100px;
+  }
+
+  .intro-head-contact-text {
+    font-size: 1rem;
+  }
+
+  .intro-head-email-image {
+    width: 12.5px;
+  }
+
+  .intro-head-email-text {
+    font-size: 0.8rem;
+  }
+}
+
+/*----------------------------------------*/
+/*-------------- END OF CSS --------------*/
+/*----------------------------------------*/

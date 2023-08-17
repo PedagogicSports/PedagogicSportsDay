@@ -1,0 +1,49 @@
+{
+  "sports": [
+    {
+      "name": "Football",
+      "image": "/home/sports/football.png",
+      "description": "Football is more than just a game, it's a symphony of passion, teamwork, and skill that resonates in the hearts of fans around the world."
+    },
+    {
+      "name": "Cricket",
+      "image": "/home/sports/cricket.png",
+      "description": "Cricket is a game that owes much of its unique appeal to the fact that it should be played not only within its Laws but also within the Spirit of the Game."
+    },
+    {
+      "name": "Volleyball",
+      "image": "/home/sports/volleyball.png",
+      "description": "In volleyball, it's not about the level of skill, but the level of heart and effort you put into the game. It's a passion that unites us."
+    },
+    {
+      "name": "Table Tennis",
+      "image": "/home/sports/table-tennis.png",
+      "description": "In table tennis, one does not win through luck or chance, it's a matter of precision, strategy, and persistence."
+    },
+    {
+      "name": "Foosball",
+      "image": "/home/sports/foosball.png",
+      "description": "The key to foosball success? Keeping your opponents on their toes and your foosmen on their feet. A game where friendships are built and rivalries are born."
+    },
+    {
+      "name": "Badminton",
+      "image": "/home/sports/badminton.png",
+      "description": "Badminton is like ballet dancing. It requires a lot of control, strength, and flexibility. It's not about being the best, it's about being better everyday."
+    },
+    {
+      "name": "Chess",
+      "image": "/home/sports/chess.png",
+      "description": "Chess is a war over the board. The object is to crush the opponent's mind. A game of skill, strategy, and patience, blending art and science into a passion."
+    },
+    {
+      "name": "Carrom",
+      "image": "/home/sports/carrom.png",
+      "description": "A carrom board is a mirror that reflects a player's focus, determination, and resilience, teaching us that success is a collection of well-placed shots."
+    },
+    {
+      "name": "Snooker",
+      "image": "/home/sports/snooker.png",
+      "description": "Snooker is a game of simple shots played to perfection, while pool is a game of complex shots played as simply as possible."
+    }
+  ]
+}

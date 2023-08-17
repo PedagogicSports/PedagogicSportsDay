@@ -1,0 +1,125 @@
+/*------------------------------------------------*/
+/*-------------- INFORMATION STYLES --------------*/
+/*------------------------------------------------*/
+
+.intro-information-container {
+  box-shadow: 0 0 20px #00000080;
+  background-color: #000000bf;
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 2rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.intro-info-title {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: -10px;
+  font-size: 10rem;
+  font-weight: 100;
+  cursor: default;
+  color: #fff;
+}
+
+/*-----------------------------------------*/
+/*-------------- LINK STYLES --------------*/
+/*-----------------------------------------*/
+
+.intro-info-links {
+  justify-content: stretch;
+  grid-auto-flow: column;
+  align-items: center;
+  margin-top: -1rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.intro-info-link {
+  transition: background-color 400ms;
+  box-shadow: 0 0 10px #00000060;
+  border: 2px solid #fff;
+  justify-content: center;
+  grid-auto-flow: column;
+  border-radius: 40px;
+  align-items: center;
+  padding: 0.25rem 0;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.intro-info-link-text {
+  font-family: "Poppins", sans-serif;
+  transition: color 400ms;
+  letter-spacing: 0.5px;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+.intro-info-link-image {
+  transition: filter 400ms;
+  width: 25px;
+}
+
+/*--------------------------------------*/
+/*------------- TRANSITION -------------*/
+/*--------------------------------------*/
+
+.intro-info-link:hover {
+  background-color: #fff;
+}
+
+.intro-info-link:hover .intro-info-link-image {
+  filter: invert(1);
+}
+
+.intro-info-link:hover .intro-info-link-text {
+  color: #000;
+}
+
+/*----------------------------------------*/
+/*-------------- RESPONSIVE --------------*/
+/*----------------------------------------*/
+
+@media all and (width <= 720px) {
+  .intro-info-title {
+    font-size: 6rem;
+  }
+
+  .intro-info-link {
+    gap: 0.35rem;
+  }
+
+  .intro-info-link-text {
+    font-size: 0.65rem;
+  }
+  
+  .intro-info-link-image {
+    width: 16px;
+  }
+}
+
+@media all and (width <= 420px) {
+  .intro-info-title {
+    letter-spacing: 0px;
+    font-size: 4rem;
+  }
+
+  .intro-info-link {
+    gap: 0.35rem;
+  }
+
+  .intro-info-link-text {
+    font-size: 0.65rem;
+  }
+  
+  .intro-info-link-image {
+    width: 16px;
+  }
+}
+
+/*----------------------------------------*/
+/*-------------- END OF CSS --------------*/
+/*----------------------------------------*/

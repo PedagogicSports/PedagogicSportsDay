@@ -1,0 +1,183 @@
+/*-------------------------------------------------*/
+/*----------------- FOOTER STYLES -----------------*/
+/*-------------------------------------------------*/
+
+footer {
+  box-shadow: 0 0 20px #00000080;
+  background-color: #000040;
+  grid-template-columns: auto;
+  justify-content: stretch;
+  align-items: center;
+  padding: 2rem 0;
+  display: grid;
+}
+
+.footer-container {
+  grid-template-columns: auto;
+  justify-content: stretch;
+  align-items: center;
+  display: grid;
+  gap: 1rem;
+}
+
+.footer-container-divider {
+  border-bottom: 1.5px solid #ffffff80;
+  margin-top: 0.65rem;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+}
+
+/*------------------------------------------*/
+/*-------------- LINKS STYLES --------------*/
+/*------------------------------------------*/
+
+.footer-links {
+  grid-template-columns: repeat(4, auto);
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  gap: 10rem;
+}
+
+.footer-link {
+  transition: scale 400ms, opacity 400ms;
+  font-family: "Poppins", "sans-serif";
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+.footer-link:hover {
+  scale: 1.08;
+  opacity: 1;
+}
+
+/*---------------------------------------------*/
+/*------------- DEPARTMENT STYLES -------------*/
+/*---------------------------------------------*/
+
+.footer-department-name {
+  font-family: "Poppins", "sans-serif";
+  text-align: center;
+  font-weight: 400;
+  margin-top: 2rem;
+  color: #ffffff;
+  cursor: default;
+}
+
+.footer-logo {
+  margin: 1rem auto;
+  width: 20rem;
+}
+
+/*------------------------------------------------*/
+/*---------------- CREATOR STYLES ----------------*/
+/*------------------------------------------------*/
+
+.footer-creators {
+  grid-template-columns: repeat(3, auto);
+  font-family: "Poppins", "sans-serif";
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  color: #000;
+  display: grid;
+  gap: 3rem;
+}
+
+.footer-creator-message {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.65rem;
+  font-weight: 400;
+  cursor: default;
+  color: #fff;
+}
+
+.footer-creator {
+  background-image: linear-gradient(90deg, #56ccf2, #2f80ed);
+  transition: scale 300ms;
+  padding: 0.25rem 2rem;
+  border-radius: 2.5px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: #000;
+}
+
+.footer-creator:hover {
+  scale: 1.1;
+}
+
+/*------------------------------------------*/
+/*--------------- RESPONSIVE ---------------*/
+/*------------------------------------------*/
+
+@media all and (width <= 1020px) {
+  .footer-links {
+    gap: 4rem;
+  }
+
+  .footer-department-name {
+    font-size: 1.5rem;
+  }
+}
+
+@media all and (width <= 1020px) {
+  .footer-logo {
+    width: 200px;
+  }
+
+  .footer-creators {
+    grid-template-columns: repeat(2, auto);
+    gap: 1rem 2rem;
+  }
+
+  .footer-creator-message {
+    grid-column: span 2;
+    text-align: center;
+  }
+}
+
+@media all and (width <= 720px) {
+  .footer-links {
+    gap: 2rem;
+  }
+
+  .footer-department-name {
+    font-size: 1rem;
+  }
+
+  .footer-creators {
+    grid-template-columns: auto;
+    gap: 1rem;
+  }
+
+  .footer-creator-message {
+    grid-column: span 1;
+  }
+}
+
+@media all and (width <= 600px) {
+  footer {
+    padding: 0 0 2rem 0;
+  }
+
+  .footer-links {
+    display: none;
+  }
+
+  .footer-department-name {
+    padding: 0 1rem;
+  }
+
+  .footer-container-divider {
+    display: none;
+  }
+}
+
+/*--------------------------------------------*/
+/*---------------- END OF CSS ----------------*/
+/*--------------------------------------------*/

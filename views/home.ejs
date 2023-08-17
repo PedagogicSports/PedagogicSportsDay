@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- #region Google Fonts Server -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- #endregion -->
+    <!-- #region Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- #endregion -->
+    <link rel="stylesheet" href="/home.css" />
+    <title>PedagogicSports</title>
+  </head>
+
+  <body>
+    <header>
+      <nav><%- include("./common/navbar.ejs") %></nav>
+    </header>
+
+    <main>
+      <section id="sports">
+        <%- include("./home/sports.ejs", { sports: sports }) %>
+      </section>
+
+      <section id="list"><%- include("./home/list.ejs") %></section>
+    </main>
+
+    <footer><%- include("./common/footer.ejs") %></footer>
+
+    <script type="module" src="/Home.js"></script>
+    <script type="module" src="/Navbar.js"></script>
+
+    <script type="text/javascript" src="/VanillaEffect.js"></script>
+  </body>
+</html>

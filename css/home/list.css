@@ -1,0 +1,71 @@
+/*---------------------------------------------*/
+/*---------------- LIST STYLES ----------------*/
+/*---------------------------------------------*/
+
+#list {
+  grid-template-columns: repeat(5, auto);
+  justify-content: center;
+  align-items: center;
+  padding: 2.5rem 0;
+  gap: 4rem 2.5rem;
+  display: grid;
+}
+
+.list-item {
+  box-shadow: 0 0 20px #00000080;
+  transform: perspective(1000px);
+  padding: 2rem 0rem 1rem 0rem;
+  transform-style: preserve-3d;
+  grid-template-columns: auto;
+  justify-content: center;
+  background-size: cover;
+  border-radius: 10px;
+  align-items: end;
+  display: grid;
+  height: 16rem;
+  width: 16rem;
+}
+
+.list-item-text {
+  font-family: "Poppins", sans-serif;
+  transform: translateZ(20px);
+  text-decoration: none;
+  letter-spacing: 1px;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+/*--------------------------------------*/
+/*------------- RESPONSIVE -------------*/
+/*--------------------------------------*/
+
+@media all and (width <= 1460px) {
+  #list {
+    grid-template-columns: repeat(4, auto);
+  }
+}
+
+@media all and (width <= 1180px) {
+  #list {
+    grid-template-columns: repeat(3, auto);
+  }
+}
+
+@media all and (width <= 880px) {
+  #list {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+@media all and (width <= 580px) {
+  #list {
+    grid-template-columns: repeat(1, auto);
+    padding: 0 0 4rem 0;
+  }
+}
+
+/*--------------------------------------------*/
+/*---------------- END OF CSS ----------------*/
+/*--------------------------------------------*/

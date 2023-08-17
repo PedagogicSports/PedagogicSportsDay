@@ -1,0 +1,36 @@
+<% heads.forEach((head) => { %>
+<div class="intro-head">
+  <h2 class="intro-head-title">SPORTS HEAD</h2>
+
+  <div class="intro-head-image-details">
+    <img class="intro-head-image" src="<%= head.image %>" />
+    <p class="intro-head-name"><%= head.name %></p>
+  </div>
+
+  <hr class="intro-head-divider" />
+
+  <div class="intro-head-contact-details">
+    <div class="intro-head-contact">
+      <img class="intro-head-contact-image" src="/buttons/phone.png" />
+      <div class="intro-head-contact-text"><%= head.phone %></div>
+    </div>
+
+    <div class="intro-head-contact">
+      <img class="intro-head-contact-image" src="/buttons/id.png" />
+      <div class="intro-head-contact-text"><%= head.register %></div>
+    </div>
+
+    <div class="intro-head-contact">
+      <img class="intro-head-contact-image" src="/buttons/class.png" />
+      <div class="intro-head-contact-text"><%= head.register%></div>
+    </div>
+  </div>
+
+  <hr class="intro-head-divider" />
+
+  <a class="intro-head-email" href="">
+    <img class="intro-head-email-image" src="/buttons/email.png" />
+    <p class="intro-head-email-text">Send An Email</p>
+  </a>
+</div>
+<% }) %>
