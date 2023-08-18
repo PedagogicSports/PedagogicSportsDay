@@ -13,20 +13,20 @@
   "profiles": {
     "football": [
       {
+        "image": "/sport/football-boy.png",
         "name": "Hari Shankar",
-        "class": "",
         "phone": "7002548422",
-        "register": "football b",
-        "email": "football b",
-        "image": "/sport/football-head-boy.png"
+        "register": "2210819",
+        "class": "3BCOM A",
+        "email": "harisankar.s@commerce.christuniversity.in"
       },
       {
+        "image": "/sport/girl.png",
         "name": "Divya Jethwani",
-        "class": "",
         "phone": "6200517181",
         "register": "football g",
-        "email": "football g",
-        "image": "/sport/girl.png"
+        "class": "3BCOM A",
+        "email": "football g"
       }
     ],
     "badminton": [
@@ -49,30 +49,30 @@
     ],
     "volleyball": [
       {
-        "name": "Sai Kumar",
-        "class": "3 MDS B",
+        "image": "/sport/boy.png",
+        "name": " Rudrakshi Sai Kumar",
         "phone": "9182855809",
-        "register": "2248413",
-        "email": "volleyball b",
-        "image": "/sport/boy.png"
+        "register": "2348413",
+        "class": "3MDS B",
+        "email": "rudrakshi.kumar@science.christuniversity.in"
       },
       {
-        "name": "Anamika",
+        "image": "/sport/girl.png",
+        "name": "Anamika Singh",
+        "phone": "9334707437",
+        "register": "2317204",
         "class": "3 MDS B",
-        "phone": "9446087919",
-        "register": "2248421",
-        "email": "volleyball g",
-        "image": "/sport/girl.png"
+        "email": "anamika.singh@mcom.christuniversity.in"
       }
     ],
     "chess": [
       {
+        "image": "/sport/chess-boy.png",
         "name": "Yash Agarwal",
-        "class": "",
         "phone": "7047415636",
-        "register": "abc",
-        "email": "abc",
-        "image": "/sport/boy.png"
+        "register": "2212809",
+        "class": "3BCOM F&A B",
+        "email": "yashashok.agarwal@commerce.christuniversity.in"
       },
       {
         "name": "Diva",
@@ -86,7 +86,7 @@
     "carrom": [
       {
         "name": "Kevin",
-        "class": "3 MDS A",
+        "class": "3MDS A",
         "phone": "9449446162",
         "register": "carrom b",
         "email": "carrom b",
@@ -94,7 +94,7 @@
       },
       {
         "name": "Eshwari",
-        "class": "3 MDS A",
+        "class": "3MDS A",
         "phone": "9488513432",
         "register": "carrom g",
         "email": "carrom g",
@@ -105,64 +105,64 @@
       {
         "image": "/sport/foosball-boy.png",
         "name": "Somnil Nath",
-        "class": "3BBAH C",
         "phone": "9330134487",
         "register": "2224337",
+        "class": "3BBAH C",
         "email": "somnil.nath@bba.christuniversity.in"
       },
       {
+        "image": "/sport/foosball-girl.png",
         "name": "Srishty Gupta",
-        "class": "3BBAH C",
         "phone": "9330134487",
         "register": "2224369",
-        "image": "/sport/foosball-girl.png",
+        "class": "3BBAH C",
         "email": "srishty.gupta@bba.christuniversity.in"
       }
     ],
     "table-tennis": [
       {
+        "image": "/sport/boy.png",
         "name": "Lomash Garg",
-        "class": "",
-        "phone": "9620690101",
-        "register": "table-tennis b",
-        "email": "table-tennis b",
-        "image": "/sport/boy.png"
+        "phone": "7284940644",
+        "register": "2224317",
+        "class": "3BBAH C",
+        "email": "lomash.garg@bba.christuniversity.in"
       },
       {
+        "image": "/sport/girl.png",
         "name": "Ananya",
-        "class": "",
         "phone": "7249448233",
         "register": "2233827",
-        "email": "table-tennis g",
-        "image": "/sport/girl.png"
+        "class": "",
+        "email": "table-tennis g"
       }
     ],
     "cricket": [
       {
+        "image": "/sport/cricket-boy.png",
         "name": "Pratham Khanna",
-        "class": "",
         "phone": "9554003870",
-        "register": "cricket b",
-        "email": "cricket b",
-        "image": "/sport/boy.png"
+        "register": "2224124",
+        "class": "",
+        "email": "pratham.khanna@bba.christuniversity.in"
       }
     ],
     "snooker": [
       {
+        "image": "/sport/snooker-boy.png",
         "name": "Likhith H",
-        "class": "",
         "phone": "9008262526",
-        "register": "snooker b",
-        "email": "snooker b",
-        "image": "/sport/boy.png"
+        "register": "2211749",
+        "class": "3BCOM H",
+        "email": "likhith.hr@commerce.christuniversity.in"
       },
       {
-        "name": "Kamini",
-        "class": "",
+        "image": "/sport/snooker-girl.png",
+        "name": "Kamini Varsha A",
         "phone": "9916750592",
-        "register": "snooker g",
-        "email": "snooker g",
-        "image": "/sport/girl.png"
+        "register": "2212814",
+        "class": "3BCOM F&A B",
+        "email": "kaminia@commerce.christuniversity.in"
       }
     ]
   }

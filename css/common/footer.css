@@ -21,11 +21,12 @@ footer {
 }
 
 .footer-container-divider {
-  border-bottom: 1.5px solid #ffffff80;
-  margin-top: 0.65rem;
+  border-bottom: 2px solid #ffffff20;
+  margin: 0.65rem auto 0 auto;
   border-right: none;
   border-left: none;
   border-top: none;
+  width: 95%;
 }
 
 /*------------------------------------------*/

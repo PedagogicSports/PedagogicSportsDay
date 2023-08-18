@@ -2,7 +2,7 @@
 /*--------------- PROFILE STYLES ---------------*/
 /*----------------------------------------------*/
 
-.creator-page {
+#creators {
   justify-content: center;
   grid-auto-flow: column;
   align-items: center;
@@ -11,136 +11,120 @@
   gap: 15rem;
 }
 
-.creator1-profile-image {
-  display: grid;
-  grid-template-columns: auto;
-  justify-content: center;
-  align-items: center;
-}
-
-.creator1-image {
-  width: 15rem;
-}
-
-.creator1-profile {
-  box-shadow: 0 0 20px #00000080;
-  background-color: #000000bf;
+.creators-profile {
+  box-shadow: 0 0 20px #000000a0;
+  background-color: #000000cf;
+  border-radius: 10px;
   width: 400px;
-  padding-bottom: 2rem;
-  padding-top: 2rem;
-  border-radius: 20px;
-  height: max-content;
 }
 
-.creator-page {
-  display: grid;
+.creators-profile-divider {
+  border-bottom: 2px solid #ffffff25;
+  border-radius: 40px;
+  border-radius: none;
+  border-left: none;
+  border-top: none;
+  margin: 0 auto;
+  outline: none;
+  width: 90%;
+}
+
+/*-------------------------------------*/
+/*----------- HEADER STYLES -----------*/
+/*-------------------------------------*/
+
+.creators-profile-header {
+  padding: 2rem 1rem 1rem 1rem;
   grid-template-columns: auto;
   justify-content: center;
   align-items: center;
-}
-
-.creator1-name-info {
   display: grid;
-  grid-template-columns: auto;
-  justify-content: center;
-  align-items: center;
-  line-height: 0;
-  color: white;
+  gap: 0.65rem;
 }
 
-.creator1-name {
-  font-size: 1.5rem;
+.creators-profile-header-image {
+  filter: drop-shadow(0 0 10px #00000050);
+  margin: 0 auto;
+  width: 240px;
+}
+
+.creators-profile-header-name {
   font-family: "Poppins", sans-serif;
-  margin-top: 1.85rem;
-  font-weight: 500;
-}
-
-.creator1-profession {
-  font-size: 1rem;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-}
-
-.creator1-socialmedia-link {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.socialmedia-icon {
-  width: 3rem;
-}
-
-.creator1-bio {
-  font-family: "Poppins", sans-serif;
-  grid-template-columns: auto;
-  justify-content: center;
-  align-items: center;
   text-align: center;
-  width: fit-content;
+  font-weight: 400;
+  font-size: 2rem;
+  cursor: default;
+  color: #fff;
+}
+
+.creators-profile-header-description {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-weight: 300;
   font-size: 1rem;
-  color: white;
-  display: grid;
+  cursor: default;
+  color: #fff;
 }
 
-.creator1-bio p {
-  margin: 1.5rem 0;
-}
+/*-------------------------------------*/
+/*------------ INFO STYLES ------------*/
+/*-------------------------------------*/
 
-.personal-detail {
-  display: grid;
-  grid-template-columns: auto auto;
+.creators-profile-info {
+  grid-template-columns: auto;
   justify-content: center;
   align-items: center;
-  gap: 0 0.65rem;
+  padding: 1rem 0;
+  display: grid;
+  gap: 1rem;
 }
 
-.whatsapp-image,
-.blackboard-image,
-.college-image {
-  width: 2rem;
+.creators-profile-info-block {
+  justify-content: left;
+  grid-auto-flow: column;
+  align-items: center;
+  display: grid;
+  gap: 0.65rem;
 }
 
-.whatsapp-image {
-  margin-top: 1rem;
+.creators-profile-info-image {
+  filter: drop-shadow(0 0 10px #00000050);
+  width: 32px;
 }
 
-.blackboard-image {
-  margin: 1.25rem 0;
-}
-
-.college-image {
-  margin-bottom: 1rem;
-}
-
-.phone-number,
-.class-name,
-.college-name {
+.creators-profile-info-text {
   font-family: "Poppins", sans-serif;
   font-size: 1.2rem;
-  color: white;
+  cursor: default;
+  color: #fff;
 }
 
-.phone-number {
-  margin-top: 1rem;
+/*----------------------------------------*/
+/*------------ SOCIALS STYLES ------------*/
+/*----------------------------------------*/
+
+.creators-profile-socials {
+  justify-content: center;
+  grid-auto-flow: column;
+  align-items: center;
+  padding: 1.5rem 0;
+  display: grid;
+  gap: 4rem;
 }
 
-.class-name {
-  margin: 1.25rem 0;
+.creators-profile-socials-link-image {
+  filter: drop-shadow(0 0 10px #00000080);
+  transition: scale 350ms;
+  cursor: pointer;
+  width: 48px;
 }
 
-.college-name {
-  margin-bottom: 1rem;
-}
+/*-----------------------------------------*/
+/*-------------- TRANSITIONS --------------*/
+/*-----------------------------------------*/
 
-.socialmedia-icon {
-  transition: 300ms;
-  padding-top: 2rem;
-}
-
-.socialmedia-icon:hover {
-  transform: scale(1.1);
+.creators-profile-socials-link-image:hover {
+  scale: 1.15;
 }
 
 /*------------------------------------------*/
@@ -148,34 +132,42 @@
 /*------------------------------------------*/
 
 @media all and (width <= 1085px) {
-  .creator-page {
+  #creators {
     gap: 5rem;
   }
 }
 
 @media all and (width <= 920px) {
-  .creator-page {
+  #creators {
     gap: 2.5rem;
   }
 }
 
 @media all and (width <= 880px) {
-  .creator-page {
+  #creators {
     grid-auto-flow: row;
   }
 }
 
 @media all and (width <= 440px) {
-  .creator1-profile {
+  .creators-profile {
     width: 300px;
   }
 
-  .creator1-image {
-    width: 10rem;
+  .creators-profile-image {
+    width: 160px;
   }
 
-  .creator1-bio p {
-    font-size: 0.75rem;
+  .creators-profile-header-description {
+    font-size: 0.85rem;
     padding: 0 1rem;
   }
+
+  .creators-profile-socials {
+    gap: 2rem;
+  }
 }
+
+/*------------------------------------------*/
+/*--------------- END OF CSS ---------------*/
+/*------------------------------------------*/
