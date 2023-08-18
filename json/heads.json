@@ -75,12 +75,12 @@
         "email": "yashashok.agarwal@commerce.christuniversity.in"
       },
       {
-        "name": "Diva",
-        "class": "",
+        "image": "/sport/girl.png",
+        "name": "Diva Kaur Grewal",
         "phone": "9319506230",
-        "register": "chess g",
-        "email": "chess g",
-        "image": "/sport/girl.png"
+        "register": "2233827",
+        "class": "3BBA F&A",
+        "email": "diva.grewal@bba.christuniversity.in"
       }
     ],
     "carrom": [
@@ -121,7 +121,7 @@
     ],
     "table-tennis": [
       {
-        "image": "/sport/boy.png",
+        "image": "/sport/tt-boy.png",
         "name": "Lomash Garg",
         "phone": "7284940644",
         "register": "2224317",
@@ -130,11 +130,11 @@
       },
       {
         "image": "/sport/girl.png",
-        "name": "Ananya",
+        "name": "Ananya Singh",
         "phone": "7249448233",
         "register": "2233827",
-        "class": "",
-        "email": "table-tennis g"
+        "class": "3BA PSY",
+        "email": "ananya.singh@psy.christuniversity.in"
       }
     ],
     "cricket": [
