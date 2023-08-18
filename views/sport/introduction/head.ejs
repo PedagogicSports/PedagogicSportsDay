@@ -1,6 +1,6 @@
-<% heads.forEach((head) => { %>
+<% heads.forEach((head, i) => { %>
 <div class="intro-head">
-  <h2 class="intro-head-title">SPORTS HEAD</h2>
+  <h2 class="intro-head-title"><%= i === 0 ? "BOY" : "GIRL" %> IN-CHARGE</h2>
 
   <div class="intro-head-image-details">
     <img class="intro-head-image" src="<%= head.image %>" />

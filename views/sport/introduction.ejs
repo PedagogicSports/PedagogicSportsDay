@@ -4,8 +4,9 @@
   </div>
 
   <div class="intro-head-container">
-    <%- include("./introduction/head.ejs", { heads: heads } ) %>
+    <%- include("./introduction/head.ejs", { heads: heads, background:
+    background } ) %>
   </div>
 
-  <img class="intro-background" src="/home/sports/football.png" />
+  <img class="intro-background" src="<%= background %>" />
 </div>

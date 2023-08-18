@@ -25,9 +25,12 @@ app.get("/", (req, res) => {
 app.get("/sport/:sport", (req, res) => {
   const title = req.params.sport;
 
+  const introTitle = title !== "table-tennis" ? title : "TableTennis";
+
   res.render("sport", {
-    title: `${title.charAt(0).toUpperCase()}${title.substring(1)}`,
-    heads: HeadsTemplate[title],
+    title: `${introTitle.charAt(0).toUpperCase()}${introTitle.substring(1)}`,
+    heads: HeadsTemplate.profiles[title],
+    background: HeadsTemplate.backgrounds[title],
     schedule: SchedulesTemplate[title],
   });
 });

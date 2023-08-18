@@ -27,8 +27,8 @@
   font-family: "Poppins", sans-serif;
   margin-bottom: 0.5rem;
   text-align: center;
-  font-size: 2.5rem;
   font-weight: 300;
+  font-size: 2rem;
   cursor: default;
   color: #fff;
 }
@@ -156,6 +156,12 @@
 /*----------------------------------------*/
 /*-------------- RESPONSIVE --------------*/
 /*----------------------------------------*/
+
+@media all and (width <= 820px) {
+  .intro-head-title {
+    font-size: 1.8rem;
+  }
+}
 
 @media all and (width <= 720px) {
   .intro-head-container {
