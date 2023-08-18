@@ -36,6 +36,8 @@ body {
   justify-content: center;
   align-items: start;
   padding-top: 1rem;
+  font-weight: 400;
+  cursor: pointer;
   margin: 2rem 0;
   display: grid;
 }

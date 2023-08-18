@@ -22,6 +22,8 @@ nav {
   border-right: none;
   border-left: none;
   border-top: none;
+  margin: 0 auto;
+  width: 95%;
 }
 
 /*----------------------------------------*/
@@ -45,11 +47,30 @@ nav {
   gap: 1rem;
 }
 
+.nav-link:not(.home) {
+  position: relative;
+}
+
+.nav-link:not(.home)::before {
+  background-color: #fff;
+  transition: width 450ms;
+  border-radius: 40px;
+  position: absolute;
+  margin: 0 auto;
+  bottom: -2.5px;
+  height: 1.5px;
+  content: "";
+  width: 0%;
+  right: 0;
+  left: 0;
+}
+
 .nav-link.home {
   transition: background-color 450ms;
   border: 2px solid #fff;
   padding: 0.25rem 2rem;
   border-radius: 2.5px;
+  margin-right: 1rem;
   position: relative;
   overflow: hidden;
 }
@@ -104,6 +125,7 @@ nav {
 
 .nav-menu-image {
   transition: opacity 450ms;
+  cursor: pointer;
   display: none;
   opacity: 0.5;
   width: 25px;
@@ -162,6 +184,10 @@ nav {
 /*---------------------------------------*/
 /*------------- TRANSITIONS -------------*/
 /*---------------------------------------*/
+
+.nav-link:not(.home):hover::before {
+  width: 100%;
+}
 
 .nav-link.home:hover {
   background-color: #fff;

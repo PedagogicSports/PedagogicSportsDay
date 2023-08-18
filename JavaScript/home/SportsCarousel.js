@@ -39,8 +39,19 @@ function CarouselSlideshow() {
 function ButtonsController() {
   buttons.forEach((button, buttonIndex) => {
     button.addEventListener("click", () => {
-      if (buttonIndex === 1 && currentSlide === slides.length - 1) return;
-      if (buttonIndex === 0 && currentSlide === 0) return;
+      if (buttonIndex === 1 && currentSlide === slides.length - 1) {
+        currentSlide = 0;
+        CarouselMoveSlides();
+        IndicatorsAnimation();
+        return;
+      }
+
+      if (buttonIndex === 0 && currentSlide === 0) {
+        currentSlide = slides.length - 1;
+        CarouselMoveSlides();
+        IndicatorsAnimation();
+        return;
+      }
 
       if (buttonIndex === 1) ++currentSlide;
       if (buttonIndex === 0) --currentSlide;

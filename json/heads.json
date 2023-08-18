@@ -103,20 +103,20 @@
     ],
     "foosball": [
       {
+        "image": "/sport/foosball-boy.png",
         "name": "Somnil Nath",
         "class": "3BBAH C",
         "phone": "9330134487",
-        "register": "foosball b",
-        "email": "foosball b",
-        "image": "/sport/boy.png"
+        "register": "2224337",
+        "email": "somnil.nath@bba.christuniversity.in"
       },
       {
         "name": "Srishty Gupta",
-        "class": "3 BBAH  C",
+        "class": "3BBAH C",
         "phone": "9330134487",
-        "register": "foosball g",
-        "email": "foosball g",
-        "image": "/sport/girl.png"
+        "register": "2224369",
+        "image": "/sport/foosball-girl.png",
+        "email": "srishty.gupta@bba.christuniversity.in"
       }
     ],
     "table-tennis": [

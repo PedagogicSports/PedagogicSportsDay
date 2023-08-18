@@ -22,13 +22,17 @@
 
     <div class="intro-head-contact">
       <img class="intro-head-contact-image" src="/buttons/class.png" />
-      <div class="intro-head-contact-text"><%= head.register%></div>
+      <div class="intro-head-contact-text"><%= head.class %></div>
     </div>
   </div>
 
   <hr class="intro-head-divider" />
 
-  <a class="intro-head-email" href="">
+  <a
+    href="mailto:<%= head.email %>?subject=Queries"
+    class="intro-head-email"
+    target="_blank"
+  >
     <img class="intro-head-email-image" src="/buttons/email.png" />
     <p class="intro-head-email-text">Send An Email</p>
   </a>

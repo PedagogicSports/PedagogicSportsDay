@@ -1,12 +1,11 @@
 {
-    "football":"https://docs.google.com/spreadsheets/d/e/2PACX-1vRZoN9p5oTsLbjz3Hqgdw0Z5mMW8Z8D9afRxdAkUi7tJVPpdEqCcMQ3pwoLkn2pwulp4aOA9BKqereU/pubhtml?widget=true&amp;headers=false",
-    "cricket":"https://docs.google.com/spreadsheets/d/e/2PACX-1vQImLUccx8F5B_GsW-XQ1ZSeT4KPjALu6NAPPRVxwGLFJ_XGEsg4p1VwTbucU0g_z5dsDM6c0wjeAPL/pubhtml?widget=true&amp;headers=false",
-    "volleyball":"https://docs.google.com/spreadsheets/d/e/2PACX-1vTDWbpLuyINP4X_fSOSCSHOqztZF8evpXgd3YXZO5XJjCflryyanY2_Zi9k0oOaMj1NvCeF2ymNBA3S/pubhtml?widget=true&amp;headers=false",
-    "badminton":"https://docs.google.com/spreadsheets/d/e/2PACX-1vQTEr8KPyT59rJUfC9-cU6mK4pGcVc9KpbRMh2-MzBpldVsleqwa3bjj8e7A4uN2nFGd9xvPl1iUG9l/pubhtml?widget=true&amp;headers=false",
-    "chess":"https://docs.google.com/spreadsheets/d/e/2PACX-1vSNnOefZCLgbpMeIR1OnIT0hF65VcZkY4u7HpXrT-lLI9_OLlDsmh-7XpzwfPr0I7hj-RTOY0O1D80i/pubhtml?widget=true&amp;headers=false",
-    "carrom":"https://docs.google.com/spreadsheets/d/e/2PACX-1vTYWFZyFmeWOXrHu8uIMKN_kvQwcEqnvnR6M2fK-6n8FWdYkFhmtLb2Lm-df57HGaXu2YNiGDqT9AAZ/pubhtml?widget=true&amp;headers=false",
-    "snooker":"https://docs.google.com/spreadsheets/d/e/2PACX-1vQAhBwETeeOlikMHXjYi3YywL-v6gEH1HPHwecQ1ON-cvIE7b59Zgs0HD4fPZSje9s7BxHpvk0XZh3e/pubhtml?widget=true&amp;headers=false",
-    "table-tennis":"https://docs.google.com/spreadsheets/d/e/2PACX-1vQLEN3XR-GODd1YqEQJuhe65F9ZxDFl9QyCPiRDzTzX2wx-jpOhCcQffoN3WEHGsc6oOP34IFCtqx5q/pubhtml?widget=true&amp;headers=false",
-    "foosball":"https://docs.google.com/spreadsheets/d/e/2PACX-1vQ0KBIbMm5E2NYt5MKTIyqEXZOjlo3Vz6eq_eSe_EH2JlGW-s3Um1Nqf5GxuUyyL_Y5gDZipekZJmex/pubhtml?widget=true&amp;headers=false"
-
+  "football": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRZoN9p5oTsLbjz3Hqgdw0Z5mMW8Z8D9afRxdAkUi7tJVPpdEqCcMQ3pwoLkn2pwulp4aOA9BKqereU/pubhtml?widget=true&amp;headers=false&widget=false&chrome=false",
+  "cricket": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQImLUccx8F5B_GsW-XQ1ZSeT4KPjALu6NAPPRVxwGLFJ_XGEsg4p1VwTbucU0g_z5dsDM6c0wjeAPL/pubhtml?widget=true&amp;headers=false&widget=false&chrome=false",
+  "volleyball": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTDWbpLuyINP4X_fSOSCSHOqztZF8evpXgd3YXZO5XJjCflryyanY2_Zi9k0oOaMj1NvCeF2ymNBA3S/pubhtml?widget=true&amp;headers=false&widget=false&chrome=false",
+  "badminton": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQTEr8KPyT59rJUfC9-cU6mK4pGcVc9KpbRMh2-MzBpldVsleqwa3bjj8e7A4uN2nFGd9xvPl1iUG9l/pubhtml?widget=true&amp;headers=false&widget=false&chrome=false",
+  "chess": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSNnOefZCLgbpMeIR1OnIT0hF65VcZkY4u7HpXrT-lLI9_OLlDsmh-7XpzwfPr0I7hj-RTOY0O1D80i/pubhtml?widget=true&amp;headers=false&widget=false&chrome=false",
+  "carrom": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTYWFZyFmeWOXrHu8uIMKN_kvQwcEqnvnR6M2fK-6n8FWdYkFhmtLb2Lm-df57HGaXu2YNiGDqT9AAZ/pubhtml?widget=true&amp;headers=false&widget=false&chrome=false",
+  "snooker": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQAhBwETeeOlikMHXjYi3YywL-v6gEH1HPHwecQ1ON-cvIE7b59Zgs0HD4fPZSje9s7BxHpvk0XZh3e/pubhtml?widget=true&amp;headers=false&widget=false&chrome=false",
+  "table-tennis": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQLEN3XR-GODd1YqEQJuhe65F9ZxDFl9QyCPiRDzTzX2wx-jpOhCcQffoN3WEHGsc6oOP34IFCtqx5q/pubhtml?widget=true&amp;headers=false&widget=false&chrome=false",
+  "foosball": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ0KBIbMm5E2NYt5MKTIyqEXZOjlo3Vz6eq_eSe_EH2JlGW-s3Um1Nqf5GxuUyyL_Y5gDZipekZJmex/pubhtml?widget=true&amp;headers=false&widget=false&chrome=false"
 }

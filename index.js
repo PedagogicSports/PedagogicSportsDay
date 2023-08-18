@@ -6,6 +6,7 @@ const app = express();
 const HomeTemplate = require("./json/home.json");
 const HeadsTemplate = require("./json/heads.json");
 const SchedulesTemplate = require("./json/schedule.json");
+const PointsTemplate = require("./json/points.json");
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
@@ -32,6 +33,7 @@ app.get("/sport/:sport", (req, res) => {
     heads: HeadsTemplate.profiles[title],
     background: HeadsTemplate.backgrounds[title],
     schedule: SchedulesTemplate[title],
+    points: PointsTemplate[title],
   });
 });
 
